@@ -1,7 +1,7 @@
 #This is NOT a relocatable package
 %define name conmen
 %define version 0.3.020804
-%define release 4mdk
+%define release %mkrel 4
 
 Summary:   Console menuscripts for Linux
 Name:      %{name}
