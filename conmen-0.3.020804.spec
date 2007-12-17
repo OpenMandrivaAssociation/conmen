@@ -8,7 +8,6 @@ Name:      %{name}
 Version:   %{version}
 Release:   %{release}
 Source:    %{name}-%{version}.tar.bz2
-BuildRoot: %{_tmppath}/%{name}-buildroot
 License:   GPL
 Group:     Shells
 URL:       http://home.wanadoo.nl/cchq/conmen/index.html
