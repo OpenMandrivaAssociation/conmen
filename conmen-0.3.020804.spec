@@ -101,3 +101,72 @@ ln -sf conmen cm
 #%{_menudir}/%{name}
 /var/lib/conmen
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.3.020804-8mdv2011.0
++ Revision: 617415
+- the mass rebuild of 2010.0 packages
+
+* Wed Sep 02 2009 Thierry Vignaud <tv@mandriva.org> 0.3.020804-7mdv2010.0
++ Revision: 424942
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 0.3.020804-6mdv2009.0
++ Revision: 243625
+- rebuild
+- fix no-buildroot-tag
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0.3.020804-4mdv2008.1
++ Revision: 131587
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import conmen
+
+
+* Wed Feb 02 2005 Lenny Cartier <lenny@mandrakesoft.com> 0.3.020804-4mdk
+- rebuild
+
+* Mon Dec 22 2003 David Baudens <baudens@mandrakesoft.com> 0.3.020804-3mdk
+- Remove menu entries
+
+* Tue Jan 28 2003 Lenny Cartier <lenny@mandrakesoft.com> 0.3.020804-2mdk
+- rebuild
+
+* Wed Oct 02 2002 Lenny Cartier <lenny@mandrakesoft.com> 0.3.020804-1mdk
+- from Max Heijndijk <cchq@wanadoo.nl> :
+	- Upgrade to 0.3.020804
+
+* Fri Aug 24 2001 Lenny Cartier <lenny@mandrakesoft.com> 0.3.221-1mdk
+- updated to 0.3.221
+
+* Sat Nov 11 2000 Max Heijndijk <cchq@wanadoo.nl> 0.25-1mdk
+- Upgrade to 0.25
+
+* Fri Nov 10 2000 Max Heijndijk <cchq@wanadoo.nl> 0.24-1mdk
+- Upgrade to 0.24
+- Removed /usr/X11R6/bin/xmen
+
+* Wed Nov 8 2000 Max Heijndijk <cchq@wanadoo.nl> 0.23-1mdk
+- Upgrade to 0.23
+
+* Wed Oct 11 2000 Max Heijndijk <cchq@wanadoo.nl> 0.22-1mdk
+- Upgrade to 0.22
+
+* Tue Aug 29 2000 Lenny Cartier <lenny@mandrakesoft.com> 0.2-2mdk
+- BM
+
+* Tue Aug 22 2000 Max Heijndijk <cchq@wanadoo.nl> 0.21-1mdk
+- Upgrade to 0.21
+- Added menu entryfile
+
+* Wed Jun 28 2000 Max Heijndijk <cchq@wanadoo.nl> 0.2-2mdk
+- Added requirement for bash >= 2.0
+
+* Wed Jun 21 2000 Max Heijndijk <cchq@wanadoo.nl> 0.2-1mdk
+- Upgraded to 0.2
+- Made spec more readable
+
+* Mon May 29 2000 Lenny Cartier <lenny@mandrakesoft.com> 0.1-1mdk
+- clean spec
+- used srpm provided by Max Heijndijk <cchq@wanadoo.nl>
