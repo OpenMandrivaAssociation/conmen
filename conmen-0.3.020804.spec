@@ -11,7 +11,7 @@ Source:    %{name}-%{version}.tar.bz2
 License:   GPL
 Group:     Shells
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-URL:       http://home.wanadoo.nl/cchq/conmen/index.html
+URL:       https://home.wanadoo.nl/cchq/conmen/index.html
 Requires:  dialog >= 0.9a Xdialog
 BuildArchitectures: noarch
 
